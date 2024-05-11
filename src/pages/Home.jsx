@@ -3,6 +3,7 @@ import Nav from '../components/Nav';
 import Notification from '../components/Notification';
 import Hero from '../components/Hero/Index';
 import PayBill from '../components/PayBill';
+import Paytm_Instrument from '../components/Paytm_Instrument';
 
 const Home = () => {
 
@@ -84,6 +85,7 @@ const Home = () => {
         {data && data.map((row, index) => (
           <PayBill key={index} data={row} color={index % 2 === 0 ? "#00baf2" : "#0f4a8a"} />
         ))}
+        <Paytm_Instrument />
       </div>
     </>
   );

@@ -12,6 +12,7 @@ module.exports = {
         hovercolor:"#00afe3",
         hovercolordark:"rgb(3 5 7 / 10%)",
         customdarkcolor:"#0f4a8a",
+        customBlack:"black"
 
       },
       extend: {},
